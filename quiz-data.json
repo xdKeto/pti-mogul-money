@@ -246,23 +246,23 @@
           "id": "gkipti-youth-300",
           "value": 300,
           "question_type": "image",
-          "question": "Ini foto acara apa?",
-          "question_media": "",
+          "question": "Siapa ini?",
+          "question_media": "youth-400-question.jpeg",
           "hint": null,
-          "answer": "",
+          "answer": "Luana",
           "answer_type": "image",
-          "answer_media": ""
+          "answer_media": "youth-400-answer.jpeg"
         },
         {
           "id": "gkipti-youth-400",
           "value": 400,
           "question_type": "image",
-          "question": "Siapa ini?",
-          "question_media": "youth-300-question.jpeg",
-          "hint": null,
-          "answer": "Luana",
-          "answer_type": "image",
-          "answer_media": "youth-300-answer.jpeg"
+          "question": "Ini foto acara apa?",
+          "question_media": "youth-400-question.jpeg",
+          "hint": "Sebutin bulan apa, ini acaranya waktu itu ngapain.",
+          "answer": "Bonding Time Februari/Nobar 2025",
+          "answer_type": "text",
+          "answer_media": ""
         },
         {
           "id": "gkipti-youth-500",
