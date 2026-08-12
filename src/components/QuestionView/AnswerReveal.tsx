@@ -61,9 +61,6 @@ export function AnswerReveal({ question, isRevealed, onReveal, onBack }: AnswerR
                 </p>
                 <MediaPlayer type={answerType} source={source} alt="Media jawaban" />
                 <div className="answer-reveal__actions">
-                  <button type="button" className="answer-reveal__close-button" onClick={onReveal}>
-                    Close
-                  </button>
                   <button type="button" className="primary-button" onClick={onBack}>
                     Back to Board
                   </button>

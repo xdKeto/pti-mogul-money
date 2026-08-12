@@ -258,7 +258,7 @@
           "value": 400,
           "question_type": "image",
           "question": "Ini foto acara apa?",
-          "question_media": "youth-400-question.jpeg",
+          "question_media": "youth-300-question.jpeg",
           "hint": "Sebutin bulan apa, ini acaranya waktu itu ngapain.",
           "answer": "Bonding Time Februari/Nobar 2025",
           "answer_type": "text",

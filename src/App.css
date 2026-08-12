@@ -389,22 +389,9 @@
 
 .answer-reveal__actions {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
   margin-top: 8px;
-}
-
-.answer-reveal__close-button {
-  min-height: 54px;
-  padding: 0 30px;
-  border-color: rgba(255, 249, 237, 0.7);
-  background: transparent;
-  color: #fff9ed;
-}
-
-.answer-reveal__close-button:hover {
-  border-color: #ffd86f;
-  color: #ffd86f;
 }
 
 .answer-reveal__modal-content .question-media--image {
@@ -525,7 +512,7 @@ button:focus-visible {
 
   .answer-reveal__actions {
     align-items: stretch;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .answer-reveal__actions button {
