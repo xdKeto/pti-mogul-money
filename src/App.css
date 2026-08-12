@@ -375,35 +375,23 @@
   padding: 28px;
 }
 
-.answer-reveal__title-row {
+.answer-reveal__actions {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 20px;
+  margin-top: 8px;
 }
 
-.answer-reveal__label {
-  margin: 0;
-  color: #ffd86f;
-  font-size: 0.8rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.answer-reveal__close {
-  display: grid;
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  place-items: center;
-  border: 0;
+.answer-reveal__close-button {
+  min-height: 54px;
+  padding: 0 30px;
+  border-color: rgba(255, 249, 237, 0.7);
   background: transparent;
   color: #fff9ed;
-  font-size: 2rem;
-  line-height: 1;
 }
 
-.answer-reveal__close:hover {
+.answer-reveal__close-button:hover {
+  border-color: #ffd86f;
   color: #ffd86f;
 }
 
@@ -512,6 +500,15 @@ button:focus-visible {
 
   .answer-reveal__modal-content {
     padding: 18px;
+  }
+
+  .answer-reveal__actions {
+    align-items: stretch;
+    flex-direction: column-reverse;
+  }
+
+  .answer-reveal__actions button {
+    width: 100%;
   }
 
   .answer-reveal__text {
