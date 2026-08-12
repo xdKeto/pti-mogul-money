@@ -54,15 +54,21 @@ export function AnswerReveal({ question, isRevealed, onReveal }: AnswerRevealPro
               transition={{ duration: 0.25 }}
               onClick={(event) => event.stopPropagation()}
             >
-              <div className="answer-reveal__modal-header">
+              <div className="answer-reveal__modal-content">
+                <div className="answer-reveal__title-row">
                 <p id="answer-reveal-title" className="answer-reveal__label">
                   Jawaban
                 </p>
-                <button type="button" className="answer-reveal__close" onClick={onReveal}>
-                  Close
+                <button
+                  type="button"
+                  className="answer-reveal__close"
+                  onClick={onReveal}
+                  aria-label="Close answer"
+                  title="Close answer"
+                >
+                  <span aria-hidden="true">×</span>
                 </button>
-              </div>
-              <div className="answer-reveal__modal-content">
+                </div>
                 <p className={`answer-reveal__text${isLongAnswer ? ' answer-reveal__text--long' : ''}`}>
                   {question.answer}
                 </p>
