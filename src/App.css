@@ -67,6 +67,18 @@
   line-height: 0.95;
 }
 
+.board-page__branding {
+  display: flex;
+  align-items: center;
+  gap: clamp(14px, 2vw, 28px);
+}
+
+.board-page__society-logo {
+  width: clamp(64px, 7vw, 110px);
+  height: clamp(64px, 7vw, 110px);
+  object-fit: contain;
+}
+
 .clear-cards-button,
 .back-button,
 .hint-toggle__button,
@@ -445,6 +457,15 @@ button:focus-visible {
     align-items: stretch;
     flex-direction: column;
     margin-bottom: 12px;
+  }
+
+  .board-page__branding {
+    gap: 12px;
+  }
+
+  .board-page__society-logo {
+    width: 64px;
+    height: 64px;
   }
 
   .clear-cards-button,

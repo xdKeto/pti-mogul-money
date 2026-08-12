@@ -18,9 +18,12 @@ export function BoardPage({
   return (
     <main className="board-page">
       <header className="board-page__header">
-        <div>
+        <div className="board-page__branding">
+          <img className="board-page__society-logo" src="/media/society_logo.png" alt="" />
+          <div>
           <p className="eyebrow">Final Game</p>
           <h1>Mogul Money</h1>
+          </div>
         </div>
         <ClearCardsButton onClear={onClearCards} />
       </header>
