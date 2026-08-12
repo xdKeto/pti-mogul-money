@@ -31,7 +31,7 @@ export function QuestionView({ category, question, onBack }: QuestionViewProps) 
         <AnswerReveal
           question={question}
           isRevealed={isAnswerRevealed}
-          onReveal={() => setIsAnswerRevealed(true)}
+          onReveal={() => setIsAnswerRevealed((revealed) => !revealed)}
         />
       </section>
     </main>
