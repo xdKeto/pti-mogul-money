@@ -1,0 +1,364 @@
+{
+  "categories": [
+    {
+      "id": "alkitab-trivia",
+      "name": "ALKITAB TRIVIA",
+      "questions": [
+        {
+          "id": "alkitab-trivia-100",
+          "value": 100,
+          "question_type": "text",
+          "question": "'TUHAN adalah gembalaku, takkan kekurangan aku.' adalah ayat dari pasal..",
+          "question_media": null,
+          "hint": "Sebutin pasal aja",
+          "answer": "Mazmur 23",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "alkitab-trivia-200",
+          "value": 200,
+          "question_type": "text",
+          "question": "Di umur berapa Sarah melahirkan Ishak?",
+          "question_media": null,
+          "hint": null,
+          "answer": "90 tahun",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "alkitab-trivia-300",
+          "value": 300,
+          "question_type": "text",
+          "question": "'Segala perkara dapat kutanggung di dalam Dia yang memberi kekuatan kepadaku.' adalah ayat dari pasal..",
+          "question_media": null,
+          "hint": "Sebutin pasal, bonus 50 kalau nyebutin ayatnya juga",
+          "answer": "Filipi 4:13",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "alkitab-trivia-400",
+          "value": 400,
+          "question_type": "text",
+          "question": "Apa isi ayat alkitab Tesalonika 5:17?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Tetaplah berdoa.",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "alkitab-trivia-500",
+          "value": 500,
+          "question_type": "text",
+          "question": "Siapakah hakim Israel yang bernazar kepada Tuhan dan kemudian harus memenuhi nazarnya dengan mengorbankan anaknya sebagai akibat dari kemenangan dalam peperangan melawan bani Amon?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Yefta",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "alkitab-trivia-600",
+          "value": 600,
+          "question_type": "text",
+          "question": "Apa ayat Alkitab yang paling pendek?",
+          "question_media": null,
+          "hint": "Menurut terjemahan inggris ya..",
+          "answer": "Yohanes 11:35 (Jesus Wept)",
+          "answer_type": "text",
+          "answer_media": null
+        }
+      ]
+    },
+    {
+      "id": "tebak-lagu",
+      "name": "GUESS THE SONG",
+      "questions": [
+        {
+          "id": "tebak-lagu-100",
+          "value": 100,
+          "question_type": "text",
+          "question": "'Aku bernyanyi bahagia, Memuji Yesus selamanya'adalah lirik lagu..",
+          "question_media": null,
+          "hint": null,
+          "answer": "Ku Berbahagia, KJ 392",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "tebak-lagu-200",
+          "value": 200,
+          "question_type": "text",
+          "question": "Sorak-sorak, sorak Haleluya!",
+          "question_media": null,
+          "hint": "Lanjutkan baris lirik setelah itu.. ",
+          "answer": "Mari, mari, mari, nyanyilah",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "tebak-lagu-300",
+          "value": 300,
+          "question_type": "audio",
+          "question": "Dengarkan lagu ini..",
+          "question_media": "lagu-500-question.mp3",
+          "hint": "Bonus 100, kalau bisa sebutin dari daerah mana",
+          "answer": "Suwe Ora Jamu",
+          "answer_type": "audio",
+          "answer_media": "lagu-500-answer.mp3"
+        },
+        {
+          "id": "tebak-lagu-400",
+          "value": 400,
+          "question_type": "text",
+          "question": "Cublak-cublak suweng, Suwenge ting gelenter.. ",
+          "question_media": null,
+          "hint": "lanjutin 1 baris setelah itu, (hint) _______ _______________ _____ ",
+          "answer": "Mambu ketundhung gudel",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "tebak-lagu-500",
+          "value": 500,
+          "question_type": "audio",
+          "question": "Dengarkan lagu ini..",
+          "question_media": "lagu-300-question.mp3",
+          "hint": "Bonus 100, kalau bisa sebutin dari daerah mana",
+          "answer": "Ampar-ampar pisang",
+          "answer_type": "audio",
+          "answer_media": "lagu-300-answer.mp3"
+        },
+        {
+          "id": "tebak-lagu-600",
+          "value": 600,
+          "question_type": "text",
+          "question": "Hee yamko rambe yamko aronawa kombe, Hee yamko rambe yamko aronawa kombe..",
+          "question_media": null,
+          "hint": "lanjutin, (hint) _____ ______ ______ __ _____ __, ____ __ _____ ___ ___",
+          "answer": "Teemi nokibe kubano ko bombe ko, Yuma no bunga awe ade",
+          "answer_type": "text",
+          "answer_media": null
+        }
+      ]
+    },
+    {
+      "id": "gkipti-umum",
+      "name": "GKI PTI TRIVIA",
+      "questions": [
+        {
+          "id": "gkipti-umum-100",
+          "value": 100,
+          "question_type": "text",
+          "question": "Bulan keluarga setiap bulan apa?",
+          "question_media": null,
+          "hint": null,
+          "answer": "September",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-umum-200",
+          "value": 200,
+          "question_type": "text",
+          "question": "GKI Perjamuan kudus setiap rentang berapa kali?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Setiap 3 bulan.",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-umum-300",
+          "value": 300,
+          "question_type": "text",
+          "question": "Siapa KRT kita?",
+          "question_media": null,
+          "hint": "KRT, T-nya Tangga",
+          "answer": "Kak Handre",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-umum-400",
+          "value": 400,
+          "question_type": "text",
+          "question": "Sebutkan 8 Bapel yang ada di GKI PTI",
+          "question_media": null,
+          "hint": "Nggak ada poin setengah, harus bener semua.",
+          "answer": "Komisi Senior, Komisi Dewasa, Komisi Pemuda, Komisi Remaja, Komisi Anak, Komisi Pelduk, Komisi Pedsis, Komisi Kesaksian, Komisi Pelkes, Kominfo, Koper, Komisi Litbang",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-umum-500",
+          "value": 500,
+          "question_type": "text",
+          "question": "Sebutin nama tante-tante yg biasa jaga pingli",
+          "question_media": null,
+          "hint": "Sebutin 4 aja, nggak ada poin setengah, harus bener semua.",
+          "answer": "(Herlina, Sonya, Lena, Betty, Yulia, Amel)",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-umum-600",
+          "value": 600,
+          "question_type": "text",
+          "question": "Sebutkan 2 poin dari kotbah minggu lalu",
+          "question_media": null,
+          "hint": "Hayo, gereja nggak?",
+          "answer": "tergantung minggu besok",
+          "answer_type": "text",
+          "answer_media": null
+        }
+      ]
+    },
+    {
+      "id": "gkipti-youth",
+      "name": "YOUTH SOCIETY TRIVIA",
+      "questions": [
+        {
+          "id": "gkipti-youth-100",
+          "value": 100,
+          "question_type": "text",
+          "question": "Sebutin yg jadi WL minggu lalu di KUNM siapa",
+          "question_media": null,
+          "hint": null,
+          "answer": "Kak Yudhi",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-youth-200",
+          "value": 200,
+          "question_type": "image",
+          "question": "Siapa ini?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Michael Daniel",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-youth-300",
+          "value": 300,
+          "question_type": "image",
+          "question": "Ini foto acara apa?",
+          "question_media": "youth-300-question.jpg",
+          "hint": null,
+          "answer": "Luana",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-youth-400",
+          "value": 400,
+          "question_type": "image",
+          "question": "Siapa ini?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Luana",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-youth-500",
+          "value": 500,
+          "question_type": "text",
+          "question": "Sebutin 12 anak pemuda",
+          "question_media": null,
+          "hint": "YANG NGGAK ADA DI RUANGAN INI YA HEHE",
+          "answer": "bener (tergantung)",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "gkipti-youth-600",
+          "value": 600,
+          "question_type": "audio",
+          "question": "Ini suaranya siapa?",
+          "question_media": null,
+          "hint": null,
+          "answer": "",
+          "answer_type": "text",
+          "answer_media": null
+        }
+      ]
+    },
+    {
+      "id": "sejarah-indo",
+      "name": "SEJARAH INDONESIA",
+      "questions": [
+        {
+          "id": "sejarah-indo-100",
+          "value": 100,
+          "question_type": "text",
+          "question": "Siapakah tokoh yang dikenal sebagai pencipta lagu kebangsaan 'Indonesia Raya'?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Wage Rudolf Supratman (W.R. Supratman)",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "sejarah-indo-200",
+          "value": 200,
+          "question_type": "text",
+          "question": "Tanggal 2 Mei diperingati sebagai Hari Pendidikan Nasional karena merupakan hari lahir tokoh siapa?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Ki Hajar Dewantara",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "sejarah-indo-300",
+          "value": 300,
+          "question_type": "text",
+          "question": "Penyebab menyerahnya Jepang pada sekutu adalah peristiwa pengeboman di dua kota besar di Jepang. Kota manakah yang dibom oleh sekutu pada tanggal 6 Agustus 1945?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Hiroshima",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "sejarah-indo-400",
+          "value": 400,
+          "question_type": "text",
+          "question": "Siapakah wakil presiden ke-7?",
+          "question_media": null,
+          "hint": null,
+          "answer": "B.J. Habibie",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "sejarah-indo-500",
+          "value": 500,
+          "question_type": "text",
+          "question": "Siapakah pahlawan nasional yang memiliki julukan Ayam Jantan dari Timur?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Sultan Hasanuddin",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "sejarah-indo-600",
+          "value": 600,
+          "question_type": "text",
+          "question": "Sunan Kalijaga menyebarkan ajaran Islam melalui jalur apa?",
+          "question_media": null,
+          "hint": "Ada beberapa jawaban yang diterima",
+          "answer": "Budaya Media Kultural, Wayang, Seni Musik",
+          "answer_type": "text",
+          "answer_media": null
+        }
+      ]
+    }
+  ]
+}
