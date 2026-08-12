@@ -239,7 +239,7 @@
           "question_media": "youth-200-question.jpeg",
           "hint": null,
           "answer": "Michael Daniel",
-          "answer_type": "text",
+          "answer_type": "image",
           "answer_media": "youth-200-answer.jpeg"
         },
         {
@@ -250,7 +250,7 @@
           "question_media": "",
           "hint": null,
           "answer": "",
-          "answer_type": "text",
+          "answer_type": "image",
           "answer_media": ""
         },
         {
@@ -261,8 +261,8 @@
           "question_media": "youth-300-question.jpeg",
           "hint": null,
           "answer": "Luana",
-          "answer_type": "text",
-          "answer_media": "youth-300-question.jpeg"
+          "answer_type": "image",
+          "answer_media": "youth-300-answer.jpeg"
         },
         {
           "id": "gkipti-youth-500",
