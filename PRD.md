@@ -9,7 +9,7 @@ This is **not** a full Jeopardy replica — there's no automatic scoring, buzzer
 - The operator/MC can run the whole game from a single screen (a laptop that's mirrored/projected) without needing any other tools.
 - Question content (questions, answers, media) is 100% managed manually through a single JSON file — no backend/CMS needed.
 - Progress (which cards have been opened) persists in the browser, survives page refreshes, and can be reset anytime via a "Clear Cards" button.
-- Supports 4 question content types: plain text, image, video, and audio (with play/pause/replay controls).
+- Supports 4 question content types: plain text, image, video, and audio.
 - An engaging design that feels like a real game show, with smooth transition animations.
 
 ## 3. Out of Scope
@@ -41,7 +41,7 @@ To keep development fast, the following are **intentionally not built**:
      - `text` → show the question text only.
      - `image` → show the question text (if any) + an image from `question_media`.
      - `video` → show the question text (if any) + a video player from `question_media`, with **Play/Pause** controls and a **Replay** button (restart from 0:00).
-     - `audio` → show the question text (if any) + an MP3 player from `question_media`, with **Play/Pause** controls and a **Replay** button (restart from 0:00).
+     - `audio` → show the question text (if any) + an MP3 player from `question_media` using the browser's native media controls.
    - A **"Show Hint"** button appears only if the `hint` field is filled in (click to toggle show/hide).
 4. **"Reveal Answer"** button → reveals the answer area with an animation (e.g. fade/slide), showing `answer` (text) and, if present, `answer_media` according to `answer_type` (image/video, using the same player as the question).
 5. **"Back to Board"** button →

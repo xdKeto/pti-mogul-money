@@ -298,18 +298,6 @@
   width: min(880px, 100%);
 }
 
-.audio-player__controls {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.audio-player__controls button {
-  padding: 0 18px;
-  border-color: #ffd86f;
-  background: #a40e25;
-}
-
 .hint-toggle {
   display: grid;
   justify-items: center;

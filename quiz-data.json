@@ -236,22 +236,22 @@
           "value": 200,
           "question_type": "image",
           "question": "Siapa ini?",
-          "question_media": null,
+          "question_media": "youth-200-question.jpeg",
           "hint": null,
           "answer": "Michael Daniel",
           "answer_type": "text",
-          "answer_media": null
+          "answer_media": "youth-200-answer.jpeg"
         },
         {
           "id": "gkipti-youth-300",
           "value": 300,
           "question_type": "image",
           "question": "Ini foto acara apa?",
-          "question_media": "youth-300-question.jpg",
+          "question_media": "youth-300-question.jpeg",
           "hint": null,
           "answer": "Luana",
           "answer_type": "text",
-          "answer_media": null
+          "answer_media": "youth-300-answer.jpeg"
         },
         {
           "id": "gkipti-youth-400",
@@ -280,9 +280,9 @@
           "value": 600,
           "question_type": "audio",
           "question": "Ini suaranya siapa?",
-          "question_media": null,
+          "question_media": "youth-600-question.ogg",
           "hint": null,
-          "answer": "",
+          "answer": "Yesto",
           "answer_type": "text",
           "answer_media": null
         }

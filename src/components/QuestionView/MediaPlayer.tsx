@@ -9,7 +9,6 @@ interface MediaPlayerProps {
 
 export function MediaPlayer({ type, source, alt }: MediaPlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null)
-  const audioRef = useRef<HTMLAudioElement>(null)
   const [isPlaying, setIsPlaying] = useState(false)
 
   if (type === 'text') return null
@@ -23,7 +22,7 @@ export function MediaPlayer({ type, source, alt }: MediaPlayerProps) {
   }
 
   const togglePlayback = async () => {
-    const media = type === 'audio' ? audioRef.current : videoRef.current
+    const media = videoRef.current
     if (!media) return
 
     if (media.paused) {
@@ -34,7 +33,7 @@ export function MediaPlayer({ type, source, alt }: MediaPlayerProps) {
   }
 
   const replay = async () => {
-    const media = type === 'audio' ? audioRef.current : videoRef.current
+    const media = videoRef.current
     if (!media) return
 
     media.currentTime = 0
@@ -42,15 +41,19 @@ export function MediaPlayer({ type, source, alt }: MediaPlayerProps) {
   }
 
   const mediaElement = type === 'audio' ? (
-    <audio ref={audioRef} className="question-media question-media--audio" src={source} controls onPlay={() => setIsPlaying(true)} onPause={() => setIsPlaying(false)} onEnded={() => setIsPlaying(false)} />
+    <audio className="question-media question-media--audio" src={source} controls />
   ) : (
     <video ref={videoRef} className="question-media question-media--video" src={source} onPlay={() => setIsPlaying(true)} onPause={() => setIsPlaying(false)} onEnded={() => setIsPlaying(false)} />
   )
 
+  if (type === 'audio') {
+    return <div className="audio-player">{mediaElement}</div>
+  }
+
   return (
-    <div className={type === 'audio' ? 'audio-player' : 'video-player'}>
+    <div className="video-player">
       {mediaElement}
-      <div className={`${type === 'audio' ? 'audio' : 'video'}-player__controls`}>
+      <div className="video-player__controls">
         <button type="button" onClick={() => void togglePlayback()}>
           {isPlaying ? 'Pause' : 'Play'}
         </button>
