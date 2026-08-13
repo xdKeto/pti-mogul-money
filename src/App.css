@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Jeopardy';
+  src: url('/gyparody%20rg.ttf') format('truetype');
+  font-display: swap;
+}
+
 .app-shell,
 .view-frame {
   height: 100svh;
@@ -61,7 +67,7 @@
 .board-page h1 {
   margin: 0;
   color: #fff9ed;
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Jeopardy', Georgia, 'Times New Roman', serif;
   font-size: clamp(2rem, 5vw, 5.4rem);
   font-weight: 700;
   line-height: 0.95;
