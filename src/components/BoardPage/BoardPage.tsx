@@ -22,7 +22,7 @@ export function BoardPage({
           <img className="board-page__society-logo" src="/media/society_logo.png" alt="" />
           <div>
           <p className="eyebrow">Final Game</p>
-          <h1>Jeopardy</h1>
+          <h1 className='font-light'>Jeopardy</h1>
           </div>
         </div>
         <ClearCardsButton onClear={onClearCards} />
