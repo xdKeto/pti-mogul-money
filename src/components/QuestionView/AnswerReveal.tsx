@@ -59,7 +59,7 @@ export function AnswerReveal({ question, isRevealed, onReveal, onBack }: AnswerR
                 <p className={`answer-reveal__text${isLongAnswer ? ' answer-reveal__text--long' : ''}`}>
                   {question.answer}
                 </p>
-                <MediaPlayer type={answerType} source={source} alt="Media jawaban" />
+                <MediaPlayer type={answerType} source={source} alt="Media jawaban" autoPlay={answerType === 'video'} />
                 <div className="answer-reveal__actions">
                   <button type="button" className="primary-button" onClick={onBack}>
                     Back to Board

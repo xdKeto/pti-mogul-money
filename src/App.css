@@ -283,18 +283,8 @@
   display: grid;
   gap: 10px;
   width: min(1120px, 100%);
-}
-
-.video-player__controls {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.video-player__controls button {
-  padding: 0 18px;
-  border-color: #ffd86f;
-  background: #a40e25;
+  margin: 0 auto;
+  justify-items: center;
 }
 
 .audio-player {

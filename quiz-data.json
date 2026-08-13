@@ -32,7 +32,7 @@
           "question_type": "text",
           "question": "'Segala perkara dapat kutanggung di dalam Dia yang memberi kekuatan kepadaku.' adalah ayat dari pasal..",
           "question_media": null,
-          "hint": "Sebutin pasal, bonus 50 kalau nyebutin ayatnya juga",
+          "hint": "Bonus 50 kalo bisa sebutin ayatnya juga.",
           "answer": "Filipi 4:13",
           "answer_type": "text",
           "answer_media": null
@@ -40,6 +40,17 @@
         {
           "id": "alkitab-trivia-400",
           "value": 400,
+          "question_type": "text",
+          "question": "Menurut Kitab Kejadian, siapakah tokoh yang tercatat memiliki umur tertua di dalam Alkitab?",
+          "question_media": null,
+          "hint": null,
+          "answer": "Metusalah",
+          "answer_type": "text",
+          "answer_media": null
+        },
+        {
+          "id": "alkitab-trivia-500",
+          "value": 500,
           "question_type": "text",
           "question": "Apa isi ayat alkitab Tesalonika 5:17?",
           "question_media": null,
@@ -49,24 +60,13 @@
           "answer_media": null
         },
         {
-          "id": "alkitab-trivia-500",
-          "value": 500,
-          "question_type": "text",
-          "question": "Siapakah hakim Israel yang bernazar kepada Tuhan dan kemudian harus memenuhi nazarnya dengan mengorbankan anaknya sebagai akibat dari kemenangan dalam peperangan melawan bani Amon?",
-          "question_media": null,
-          "hint": null,
-          "answer": "Yefta",
-          "answer_type": "text",
-          "answer_media": null
-        },
-        {
           "id": "alkitab-trivia-600",
           "value": 600,
           "question_type": "text",
-          "question": "Apa ayat Alkitab yang paling pendek?",
+          "question": "Apa ayat Alkitab yang paling pendek menurut terjemahan inggris?",
           "question_media": null,
-          "hint": "Menurut terjemahan inggris ya..",
-          "answer": "Yohanes 11:35 (Jesus Wept)",
+          "hint": "Boleh sebutin ayat atau isinya",
+          "answer": "Yohanes 11:35 / Jesus Wept",
           "answer_type": "text",
           "answer_media": null
         }
@@ -101,13 +101,13 @@
         {
           "id": "tebak-lagu-300",
           "value": 300,
-          "question_type": "audio",
-          "question": "Dengarkan lagu ini..",
-          "question_media": "lagu-500-question.mp3",
-          "hint": "Bonus 100, kalau bisa sebutin dari daerah mana",
-          "answer": "Suwe Ora Jamu",
-          "answer_type": "audio",
-          "answer_media": "lagu-500-answer.mp3"
+          "question_type": "text",
+          "question": "Hee yamko rambe yamko aronawa kombe, Hee yamko rambe yamko aronawa kombe..",
+          "question_media": null,
+          "hint": "lanjutin, (hint) _____ ______ ______ __ _____ __, ____ __ _____ ___ ___",
+          "answer": "Teemi nokibe kubano ko bombe ko, Yuma no bunga awe ade",
+          "answer_type": "text",
+          "answer_media": null
         },
         {
           "id": "tebak-lagu-400",
@@ -134,13 +134,13 @@
         {
           "id": "tebak-lagu-600",
           "value": 600,
-          "question_type": "text",
-          "question": "Hee yamko rambe yamko aronawa kombe, Hee yamko rambe yamko aronawa kombe..",
-          "question_media": null,
-          "hint": "lanjutin, (hint) _____ ______ ______ __ _____ __, ____ __ _____ ___ ___",
-          "answer": "Teemi nokibe kubano ko bombe ko, Yuma no bunga awe ade",
-          "answer_type": "text",
-          "answer_media": null
+          "question_type": "audio",
+          "question": "Dengarkan lagu ini..",
+          "question_media": "lagu-500-question.mp3",
+          "hint": "Bonus 100, kalau bisa sebutin dari daerah mana",
+          "answer": "Suwe Ora Jamu",
+          "answer_type": "audio",
+          "answer_media": "lagu-500-answer.mp3"
         }
       ]
     },
@@ -259,19 +259,19 @@
           "question_type": "image",
           "question": "Ini foto acara apa?",
           "question_media": "youth-300-question.jpeg",
-          "hint": "Sebutin bulan apa, ini acaranya waktu itu ngapain.",
-          "answer": "Bonding Time Februari/Nobar 2025",
+          "hint": "Sebutin bulan apa atau acaranya waktu itu ngapain.",
+          "answer": "Bonding Time Februari 2025 / Nobar Film Kaluna",
           "answer_type": "text",
           "answer_media": ""
         },
         {
           "id": "gkipti-youth-500",
           "value": 500,
-          "question_type": "text",
-          "question": "Sebutin 12 anak pemuda",
-          "question_media": null,
-          "hint": "YANG NGGAK ADA DI RUANGAN INI YA HEHE",
-          "answer": "bener (tergantung)",
+          "question_type": "audio",
+          "question": "Ini suaranya siapa?",
+          "question_media": "youth-500-question.ogg",
+          "hint": null,
+          "answer": "Yesto",
           "answer_type": "text",
           "answer_media": null
         },
@@ -280,11 +280,11 @@
           "value": 600,
           "question_type": "audio",
           "question": "Ini suaranya siapa?",
-          "question_media": "youth-600-question.ogg",
+          "question_media": "youth-600-question.mp3",
           "hint": null,
-          "answer": "Yesto",
-          "answer_type": "text",
-          "answer_media": null
+          "answer": "Ima",
+          "answer_type": "video",
+          "answer_media": "youth-600-answer.mp4"
         }
       ]
     },
