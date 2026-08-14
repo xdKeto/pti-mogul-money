@@ -269,22 +269,22 @@
           "value": 500,
           "question_type": "audio",
           "question": "Ini suaranya siapa?",
-          "question_media": "youth-500-question.ogg",
+          "question_media": "youth-600-question.mp3",
           "hint": null,
-          "answer": "Dioskuri",
-          "answer_type": "text",
-          "answer_media": null
+          "answer": "Ima",
+          "answer_type": "video",
+          "answer_media": "youth-600-answer.mp4"
         },
         {
           "id": "gkipti-youth-600",
           "value": 600,
           "question_type": "audio",
           "question": "Ini suaranya siapa?",
-          "question_media": "youth-600-question.mp3",
+          "question_media": "youth-500-question.ogg",
           "hint": null,
-          "answer": "Ima",
-          "answer_type": "video",
-          "answer_media": "youth-600-answer.mp4"
+          "answer": "Dioskuri",
+          "answer_type": "text",
+          "answer_media": null
         }
       ]
     },
