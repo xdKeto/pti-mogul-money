@@ -271,7 +271,7 @@
           "question": "Ini suaranya siapa?",
           "question_media": "youth-600-question.mp3",
           "hint": null,
-          "answer": "Ima",
+          "answer": "",
           "answer_type": "video",
           "answer_media": "youth-600-answer.mp4"
         },
