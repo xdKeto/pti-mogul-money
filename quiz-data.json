@@ -207,10 +207,10 @@
           "id": "gkipti-umum-600",
           "value": 600,
           "question_type": "text",
-          "question": "Sebutkan 2 poin dari kotbah minggu lalu",
+          "question": "Sebutkan 3 poin dari kotbah minggu lalu",
           "question_media": null,
-          "hint": "Hayo, gereja nggak?",
-          "answer": "tergantung minggu besok",
+          "hint": "Hayo, gereja nggak? KUNM / Umum, keyword: 'Tetap'",
+          "answer": "Tetap Bertekun, Tetap Bertahan, Tetap Berharap",
           "answer_type": "text",
           "answer_media": null
         }
@@ -224,7 +224,7 @@
           "id": "gkipti-youth-100",
           "value": 100,
           "question_type": "text",
-          "question": "Sebutin yg jadi WL minggu lalu di KUNM siapa",
+          "question": "Sebutkan 8 anak pemuda/remaja yang ngga ada di ruangan ini.",
           "question_media": null,
           "hint": null,
           "answer": "Kak Yudhi",
@@ -249,7 +249,7 @@
           "question": "Siapa ini?",
           "question_media": "youth-400-question.jpeg",
           "hint": null,
-          "answer": "Luana",
+          "answer": "Sebas",
           "answer_type": "image",
           "answer_media": "youth-400-answer.jpeg"
         },
